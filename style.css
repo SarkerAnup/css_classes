@@ -1,0 +1,65 @@
+/* The following code is for p tag*/
+
+.sarker{
+    font-size:12px ;
+    color:green ;
+    
+}
+@font-face {
+    font-family:dark-fat;
+    src: url(./fonts/dark-fat.otf);
+}
+.head{
+    font-family:dark-fat;
+    color: black;
+ }
+.sarker{ 
+    font-family: "Playwrite IT Moderna", cursive;
+    font-family:"Playwrite IT Moderna", cursive;
+    font-weight:200px;
+    font-style:normal ;
+    text-decoration:none ;
+    text-transform: capitalize;
+    letter-spacing:00px;
+    word-spacing: 5px;
+    text-decoration:underline;
+}
+/* with "*" you can change the hole body text color*/
+.anup{
+    font-size: 18px;
+    color:#ff7675;
+    text-indent:30px;
+    text-shadow:10px 10px 10px  #1c1a1b ;
+}
+
+/*========CSS SELECTOR=========*/
+
+/* Universal selector */
+.tab{
+    color:blue;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: rgb(246, 93, 4);
+    padding: 10px;
+}
+/* tag selector */
+.dev{
+    color: rgb(45, 154, 39);
+}
+
+/* class Selector */
+
+.odd{
+    text-transform: uppercase;
+    color: coral;
+    
+}
+/* id Selector */
+#heading{
+    color:purple;
+
+}
+/* Attribute Selector */
+
