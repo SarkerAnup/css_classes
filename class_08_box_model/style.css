@@ -1,0 +1,41 @@
+/*
+1. inline vs Block
+2. Box model
+3. Border
+4. Padding 
+5. Margin
+6. Box Sizing
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-one{
+    background: orange;
+    color: #fff;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 10px dashed black ;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.box-two{
+    background: rgba(118, 96, 2, 0.862);
+    color: #fff;
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.google {
+    display: inline-block;
+    margin-top: 30px;
+    padding:20px;
+    background: red;
+
+}

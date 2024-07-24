@@ -1,0 +1,39 @@
+/*          ****css positoining****
+we will learn :
+1. absolute
+2. Fixed
+3. Relative
+4. Sticky
+*/
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+    padding: 50px;
+    height: 2000px;
+}
+.parent {
+    border:2px solid black;
+    width: 500px;
+    height: 500px;
+    background: ivory;
+     
+}
+
+.child-1 {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: sticky;  /*you can using here:  absolute, Fixed, Relative, Sticky*/
+    top: 0;
+     
+   
+}
+
+.child-2 {
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+}
