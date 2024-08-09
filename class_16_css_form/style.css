@@ -1,0 +1,115 @@
+body{
+    background: #f3e0e2;
+}
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+main { 
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px #000;
+}
+
+main > * {
+    flex-basis: 100%;
+}
+
+
+.login-form {
+    background-color: #fff;
+    text-align: center;
+}
+
+.login-form-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.fab {
+    border: 2px solid #eeeeee;
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.fa-facebook-f {
+    margin-right: 5px;
+}
+
+.fa-twitter {
+    margin-left: 5px;
+}
+
+input {
+    width: 80%;
+    background-color: #eeeeee;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+form a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0000009c;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+input[type="submit"] {
+    background-color: #ff4828;
+    width: 30%;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.login-text{
+    background-image: linear-gradient(to right, #ff454d, #ff416a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+
+.text h2 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+ 
+
+.text p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.text {
+    padding: 3rem;
+}
