@@ -76,13 +76,56 @@ input[type="number"]:in-range {
     background-color: rgb(63, 175, 91);
 }
 
-p:not(.test){
-    color: blue;
+input[type="number"]:out-of-range {
+    background-color: #736f6f;
 }
+
+/* p:not(.test){
+    color: blue;
+} */
 li:nth-child(2n+1){
     background-color: rgb(5, 235, 182);  /* (2),(2n+1)  with using this command  you can do any list text-color,background color etc only changing the number*/
 }
 
-p:nth-of-type(4){
-    color: rgb(213, 6, 54); /* in this command u can do change any spacic p tag color or extra thing whatever you want*/
+/* p:nth-of-type(4){
+    color: rgb(213, 6, 54);    
+    } */  /* in this command u can do change any spacic p tag color or extra thing whatever you want*/
+     
+
+ 
+
+/* p:only-child{
+    background-color: yellow;
+    height:30px;
+    text-align: center;
+    text-decoration: center;
+} */
+
+
+input[type='text']:required{
+    background-color: salmon;
 }
+input[type='text']:optional{
+    background-color: rgb(255, 224, 87);
+}
+input[type='text']:read-only{
+    background-color: black;
+    color: #fff;
+}
+
+
+ :root {
+    --light: gray; /* you can use this variable anyware  ,, this is just declaratin of a variable*/
+ }
+
+ :target{
+    background-color: grey;
+    color: black;
+ }
+
+ #custom-email{
+    background-color:red;
+ }
+ #custom-email:valid{
+    background-color: green;
+ }
