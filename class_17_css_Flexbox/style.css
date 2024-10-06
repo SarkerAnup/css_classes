@@ -1,0 +1,111 @@
+/*
+container
+1. display
+2.flex-direction
+3.flex-wrap
+3+4 flex-flow
+4.align-items // cross axis
+5.aling contents
+6. justify-content // main asis
+
+
+
+item 
+1. flex-grow
+2. flex-shrink
+3. flex-basis
+#. flex
+4. align-self
+5. order
+
+
+
+*/
+
+section{
+    background: darkgray;
+    border: 1px solid black;
+    width: 100vh;
+    display: flex;
+}
+
+main {
+    background: orange;
+    color: aliceblue;
+    flex: 3;
+}
+aside{
+    background: green;
+    color: black;
+    flex: 1;
+}
+
+
+div.form {
+    width: 600px;
+    background: darkgray;
+    border: 1px solid #000;
+    margin-top: 40px;
+}
+
+
+.form_control {
+    display: flex;
+}
+
+.form_control input {
+    flex: 1;
+}
+
+.container {
+    background-color: azure;
+    height: 30vh;
+    border: 3px solid #000;
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: stretch; */
+    /* flex-direction: row-reverse; 
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap;
+    align-items: flex-start; */
+  
+}
+
+
+.container > * {
+    flex-basis: 100%;     /*  this is using for taking the all childs same width  */
+    
+}
+
+.child_1 {
+    min-height: 100px;
+    background-color: cadetblue;
+    order: 1;
+} 
+
+
+
+.child_2 {
+    min-height: 150px;
+    background-color: sandybrown;
+    order: 5;
+}
+
+.child_3 {
+    min-height: 200px; 
+    background-color: rebeccapurple;
+    order: 3;
+    
+}
+
+.child_4 {
+    min-height: 100px;
+    background-color: orangered;
+    order: 4;
+}
+
+.child_5 {
+    min-height: 100px;
+    background-color: goldenrod;
+    order: 2;
+}

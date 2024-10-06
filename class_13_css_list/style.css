@@ -1,0 +1,88 @@
+ul {
+    /* list-style-type: circle;
+    list-style-position: outside;
+    list-style-image: url(./list.jpg) ; */
+
+    list-style: square inside url(./list.jpg);
+}
+
+/* li {
+    border: 1px solid black;
+    background-color: coral;
+}  */
+
+ul.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.nav li {
+    background-color: darkcyan;
+    position: relative;
+}
+ul.nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.9375rem 1.25rem;
+
+}
+
+ul.nav  li:hover {
+    background-color: rgb(3, 78, 78);
+}
+
+
+ul.dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+ul.nav li:hover ul.dropdown {
+    display: block;
+
+}
+/* this is now thing to me  */
+ul.dropdown-s{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+ul.dropdown li {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+                                 
+.dropdown-s li {
+    
+    position: absolute;
+    top: 100%;
+}
+
+
+ul.dropdown-s {
+    li:hover {
+        background-color: rgb(3, 78, 78);
+}}
+
+ul.dropdown-s {
+    display: none;
+}
+.cc:hover  .dropdown-s{
+    
+    display: block;
+}

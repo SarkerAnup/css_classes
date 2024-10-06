@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+}
+
+a :link {
+    color: cyan;
+    
+}
+
+
+a :active {
+    color: chocolate;
+}
+
+a :hover {
+    color: cyan;
+    background-color: silver;
+    padding: 5px;
+    /* width: 60%; */
+   
+}
+
+a :visited {
+    color:crimson;
+    
+}
+
+
+
+
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+
+input:disabled{
+    background-color: orange;
+}
+
+
+p:empty{
+    height: 20vh;
+    width: 20vh;
+    background-color: olivedrab;
+}
+
+
+input[type="text"]:enabled{
+
+    background-color: yellow;
+    height: 30px;
+
+}
+
+
+
+li:first-child{
+    color: red;
+}
+
+p:first-of-type{
+    color:brown;
+}
+
+
+input#text:focus {
+    background-color: white;  /* this thing using for focusing somethig and doing lot of thing*/
+    outline: none;
+    border: 5px solid green;
+}
+
+input[type="number"] {
+    background-color: rgb(219, 57, 57);
+}
+input[type="number"]:in-range {
+    background-color: rgb(63, 175, 91);
+}
+
+p:not(.test){
+    color: blue;
+}
+li:nth-child(2n+1){
+    background-color: rgb(5, 235, 182);  /* (2),(2n+1)  with using this command  you can do any list text-color,background color etc only changing the number*/
+}
+
+p:nth-of-type(4){
+    color: rgb(213, 6, 54); /* in this command u can do change any spacic p tag color or extra thing whatever you want*/
+}
